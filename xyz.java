@@ -1,16 +1,7 @@
-import java.util.Scanner;
 public class xyz {
-    public static void main(String[] args) {
-        System.out.println("Enter a number");
-        Scanner sc = new Scanner(System.in); 
-        int a,b;
-        if(sc.hasNextInt()){
-            a = sc.nextInt();
-        }
-        System.out.println("Enter a number");
-        if(sc.hasNextInt()){
-            b = sc.nextInt();
-        }
+    public static void main(String[] args) { 
+        int a = Integer.parseInt(args[0]);
+        int b = Integer.parseInt(args[1]);
         System.out.println("Sum: "+(a+b));
     }
 }   
