@@ -1,5 +1,7 @@
 public class xyz {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        int a = 10;
+        int b = 30;
+        System.out.println("Sum: "+(a+b));
     }
 }   
